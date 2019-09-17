@@ -8,7 +8,7 @@
 
 ## Архитектура
 
-![](https://github.com/gregzaitsev/school444/projects/livegame/LiveGame.png)
+![](https://github.com/gregzaitsev/school444/blob/master/projects/livegame/LiveGame.png)
 
 ## Создание модели
 
