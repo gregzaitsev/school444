@@ -23,5 +23,19 @@ function createUniverse() {
         tbdy.appendChild(tr);
     }
     tbl.appendChild(tbdy);
-    body.appendChild(tbl)
+    body.appendChild(tbl);
+
+    displayState();
+}
+
+function displayState() {
+    for (let i=0; i<N; i++) {
+        for (let j=0; j<N; j++) {
+            let cell = document.getElementById(`${i*N+j}`);
+            if (state[i][j] == 1)
+                cell.style.backgroundColor = liveColor;
+            else
+                cell.style.backgroundColor = deadColor;
+        }
+    }
 }
