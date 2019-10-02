@@ -1,4 +1,5 @@
 
+// TODO: Редактирование начального состояния
 function tableClickHandler(ev) {
     // Эти две строчки не нужны, их нужно удалить
     console.log('', ev.srcElement.id);
@@ -22,7 +23,7 @@ function tableClickHandler(ev) {
     // А вот тут нужно вызвать вашу функцию отображения состояния. В этом примере она называется
     // displayState.
 
-    
+
 
 }
 
@@ -50,6 +51,8 @@ function createUniverse() {
     displayState();
 }
 
+// Отображение состояния
+// TODO: Уже сделано, вам нужно только вызывать эту функцию в нужных местах
 function displayState() {
     for (let i=0; i<N; i++) {
         for (let j=0; j<N; j++) {
@@ -61,3 +64,6 @@ function displayState() {
         }
     }
 }
+
+// TODO: Запуск игры
+// ... а вот тут нужно объявить функции - обработчики нажатий кнопок запуска и остановки игры
