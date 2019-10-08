@@ -18,7 +18,7 @@ QWord | 0 | 2^64 - 1 | unsigned 64-bit
 ### Числа с плавающей запятой
 
 Type | Minimum | Maximum | Significant digits | Size
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 Real | platform | dependent | ??? | 32 or 64
 Single | 1.5E-45 | 3.4E38 | 7-8 | 32
 Double | 5.0E-324 | 1.7E308 | 15-16 | 64
