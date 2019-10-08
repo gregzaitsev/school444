@@ -6,10 +6,10 @@
 
 Type | Minimum | Maximum | Size
 --- | --- | --- | ---
-Shortint, Character | -128 | 127 | signed 8-bit
-Byte | 0 | 255 | unsigned 8-bit
+Shortint, Character | -$80 | $7F | signed 8-bit
+Byte | 0 | $FF | unsigned 8-bit
 Smallint | -$8000 | $7FFF | signed 16-bit
-Word | 0 | 65535 | unsigned 16-bit
+Word | 0 | $FFFF | unsigned 16-bit
 Longint, Integer | -$80000000 | $7FFFFFFF | signed 32-bit
 Longword, Cardinal  | 0 | $FFFFFFFF | unsigned 32-bit
 Int64 | -2^63 | 2^63 - 1 | signed 64-bit
