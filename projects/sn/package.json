@@ -1,0 +1,34 @@
+{
+  "name": "SocialNetwork101",
+  "version": "1.0.0",
+  "description": "Training Social Network",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bignumber.js": "^8.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "assert",
+      "beforeEach",
+      "afterEach",
+      "describe",
+      "contract",
+      "artifacts"
+    ]
+  }
+}
